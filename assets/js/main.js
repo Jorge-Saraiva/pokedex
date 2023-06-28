@@ -28,8 +28,5 @@ loadPokemonItems(offset, limit)
 
 loadMoreButton.addEventListener('click', () => {
     offset += limit
-
-    if (qtdeRecordmaxRecords)
-
     loadPokemonItems(offset, limit)
 })
